@@ -950,6 +950,8 @@ GameObject:
   - component: {fileID: 239464200}
   - component: {fileID: 239464202}
   - component: {fileID: 239464201}
+  - component: {fileID: 239464204}
+  - component: {fileID: 239464203}
   m_Layer: 0
   m_Name: Sphere_2
   m_TagString: Untagged
@@ -1018,6 +1020,31 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239464199}
   m_Mesh: {fileID: 4864056309639282896, guid: e2d141b5212782345b19d5188c1f47ef, type: 3}
+--- !u!114 &239464203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239464199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c79c99a65fd373d40b54b745f7083d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &239464204
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239464199}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.422989, y: 2.4251947, z: 2.4229374}
+  m_Center: {x: 2.4755318, y: 1.6036291, z: 3.630281}
 --- !u!1001 &341908847
 PrefabInstance:
   m_ObjectHideFlags: 0
