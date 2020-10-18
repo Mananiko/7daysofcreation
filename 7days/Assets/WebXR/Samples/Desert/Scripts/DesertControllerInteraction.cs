@@ -17,6 +17,9 @@ public class DesertControllerInteraction : MonoBehaviour
 
     private Animator anim;
 
+    public VRTeleporter teleporter;
+   
+
     void Awake()
     {
         t = transform;
@@ -29,11 +32,27 @@ public class DesertControllerInteraction : MonoBehaviour
     {
         float normalizedTime = controller.GetButton("Trigger") ? 1 : controller.GetAxis("Grip");
 
-        if (controller.GetButtonDown("Trigger") || controller.GetButtonDown("Grip"))
-            Pickup();
+        if (controller.GetButtonDown("Trigger"))
+        {
+            teleporter.GetComponent<VRTeleporter>().ToggleDisplay(true);
+        }
 
-        if (controller.GetButtonUp("Trigger") || controller.GetButtonUp("Grip"))
+        if (controller.GetButtonUp("Trigger"))
+        {
+            teleporter.GetComponent<VRTeleporter>().Teleport();
+            teleporter.GetComponent<VRTeleporter>().ToggleDisplay(false);
+        }
+
+        if (controller.GetButtonDown("Grip"))
+        {
+            Pickup();
+        }
+            
+
+        if (controller.GetButtonUp("Grip"))
+        {
             Drop();
+        }            
 
         // Use the controller button or axis position to manipulate the playback time for hand model.
         anim.Play("Take", -1, normalizedTime);
