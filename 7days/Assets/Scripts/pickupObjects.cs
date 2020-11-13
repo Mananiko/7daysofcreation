@@ -31,7 +31,7 @@ public class pickupObjects : MonoBehaviour
         gameObject.transform.localPosition = new Vector3(4f, -1.5f, 5f);                      //sets local position in front of player, so it seems player is holding it
         gameObject.transform.localRotation = Quaternion.Euler(0, 0f, 0);                       //rotates the object
         gameObject.gameObject.GetComponent<BoxCollider>().isTrigger = true;
-        //check if other GameObject has attachMe Script and deactivate if yes
+        //check if other GameObject has attachMe Script and set it to attached
         gameObject.gameObject.GetComponent<attatchMe>().attached = true;              
         pickedUp = true;
     }

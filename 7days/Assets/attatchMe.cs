@@ -6,15 +6,6 @@ public class attatchMe : MonoBehaviour
 {
    public bool attached = false;
 
-    private void Awake()
-    {
-        
-    }
-    private void Update()
-    {
-        
-    }
-
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Interactable") && attached == false)
