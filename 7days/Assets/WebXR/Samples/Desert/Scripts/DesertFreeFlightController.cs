@@ -68,7 +68,20 @@ public class DesertFreeFlightController : MonoBehaviour {
 
             transform.Translate(x, 0, z);
         }
+        
+        if (rotationEnabled)
+        {
+            // Get smooth mouse look.
+            Vector2 smoothJoystickDelta = Vector2.Scale(new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")), Vector2.one * sensitivity * smoothing);
+            appliedMouseDelta = Vector2.Lerp(appliedMouseDelta, smoothJoystickDelta, 1 / smoothing);
+            currentMouseLook += appliedMouseDelta;
+            currentMouseLook.y = Mathf.Clamp(currentMouseLook.y, -90, 90);
 
+            // Rotate camera and controller.
+            transform.localRotation = Quaternion.AngleAxis(-currentMouseLook.y, Vector3.right);
+            character.localRotation = Quaternion.AngleAxis(currentMouseLook.x, Vector3.up);
+        }
+        
         if (rotationEnabled && Input.GetMouseButton(0))
         {
             // Get smooth mouse look.
