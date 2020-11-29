@@ -11,7 +11,7 @@ public class pickupObjects : MonoBehaviour
 
     bool pickedUp = false;
     GameObject pickedUpObject;
-    attatchMe attachScript;
+    attatchMe attachScript;      
 
     private void Update()
     {
@@ -25,6 +25,11 @@ public class pickupObjects : MonoBehaviour
             pickUp(other.gameObject);
             //other.gameObject.GetComponent<attatchMe>().enabled = true;
             pickedUpObject = other.gameObject;
+
+            if (other.GetComponent<AudioSource>())
+            {
+                other.GetComponent<AudioSource>().Play();
+            }
 
         }                    
     }
