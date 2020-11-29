@@ -448,6 +448,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155914811}
   m_Mesh: {fileID: 6330589610157484603, guid: e67d2dd71c20d96478b52016ada0e9ff, type: 3}
+--- !u!1001 &190219370
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069813, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249948855016069819, guid: 05ae671c5000857478cce8b38a1c3120,
+        type: 3}
+      propertyPath: m_Name
+      value: Reset Plane
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05ae671c5000857478cce8b38a1c3120, type: 3}
 --- !u!1001 &220148426
 PrefabInstance:
   m_ObjectHideFlags: 0
