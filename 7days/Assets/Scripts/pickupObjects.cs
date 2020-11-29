@@ -1,15 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using WebXR;
+
 
 public class pickupObjects : MonoBehaviour
 {
     /*
     * This Script is supposed to be on the main camera and can pick up objects. the object needs to have the tag interactable
     */
-
-    private WebXRController controller;
 
     bool pickedUp = false;
     GameObject pickedUpObject;
@@ -35,7 +33,7 @@ public class pickupObjects : MonoBehaviour
     {
         gameObject.transform.SetParent(this.transform); //sets the parent of the object to camera (object will be always in front of it)
         //gameObject.gameObject.GetComponent<Rigidbody>().isKinematic = true;                                                      //turns Kinematic on, so object will not interfere when picked up
-        gameObject.transform.localPosition = new Vector3(4f, -1.5f, 5f);                      //sets local position in front of player, so it seems player is holding it
+        gameObject.transform.localPosition = new Vector3(0, 0, 1f);                      //sets local position in front of player, so it seems player is holding it
         gameObject.transform.localRotation = Quaternion.Euler(0, 0f, 0);                       //rotates the object
         gameObject.gameObject.GetComponent<BoxCollider>().isTrigger = true;
         //check if other GameObject has attachMe Script and set it to attached
