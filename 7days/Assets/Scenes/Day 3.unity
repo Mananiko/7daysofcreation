@@ -10690,7 +10690,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8c738ff50a661cc4cb6efd5279940209, type: 3}
+      objectReference: {fileID: 8300000, guid: a7c7e8476870bf8449a406a7775ace85, type: 3}
     - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
@@ -10705,6 +10705,11 @@ PrefabInstance:
         type: 3}
       propertyPath: BypassListenerEffects
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0dee8ce65f51b84a976ec6ee222a2dd, type: 3}
@@ -12961,7 +12966,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8c738ff50a661cc4cb6efd5279940209, type: 3}
+      objectReference: {fileID: 8300000, guid: a7c7e8476870bf8449a406a7775ace85, type: 3}
     - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
@@ -12976,6 +12981,11 @@ PrefabInstance:
         type: 3}
       propertyPath: BypassListenerEffects
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0dee8ce65f51b84a976ec6ee222a2dd, type: 3}
@@ -20987,7 +20997,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8c738ff50a661cc4cb6efd5279940209, type: 3}
+      objectReference: {fileID: 8300000, guid: a7c7e8476870bf8449a406a7775ace85, type: 3}
     - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
@@ -21002,6 +21012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: BypassListenerEffects
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0dee8ce65f51b84a976ec6ee222a2dd, type: 3}
@@ -24791,7 +24806,7 @@ PrefabInstance:
     - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
         type: 3}
       propertyPath: MaxDistance
-      value: 3.8924522
+      value: 14.470398
       objectReference: {fileID: 0}
     - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
         type: 3}
@@ -24892,6 +24907,11 @@ PrefabInstance:
         type: 3}
       propertyPath: BypassListenerEffects
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0dee8ce65f51b84a976ec6ee222a2dd, type: 3}
@@ -30630,7 +30650,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8c738ff50a661cc4cb6efd5279940209, type: 3}
+      objectReference: {fileID: 8300000, guid: a7c7e8476870bf8449a406a7775ace85, type: 3}
     - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
@@ -30645,6 +30665,11 @@ PrefabInstance:
         type: 3}
       propertyPath: BypassListenerEffects
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0dee8ce65f51b84a976ec6ee222a2dd, type: 3}
@@ -41127,7 +41152,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8c738ff50a661cc4cb6efd5279940209, type: 3}
+      objectReference: {fileID: 8300000, guid: a7c7e8476870bf8449a406a7775ace85, type: 3}
     - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
@@ -41142,6 +41167,11 @@ PrefabInstance:
         type: 3}
       propertyPath: BypassListenerEffects
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499987293714524518, guid: c0dee8ce65f51b84a976ec6ee222a2dd,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0dee8ce65f51b84a976ec6ee222a2dd, type: 3}
