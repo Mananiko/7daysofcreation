@@ -7,7 +7,7 @@ public class sceneManager : MonoBehaviour
 {
     private float timer = 0;
     [SerializeField]
-    private float resetLimit = 10;
+    private float resetLimit = 30;
 
     //reset level when player inactive for more than X seconds
     void Update()
