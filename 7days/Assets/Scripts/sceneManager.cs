@@ -12,13 +12,14 @@ public class sceneManager : MonoBehaviour
     //reset level when player inactive for more than X seconds
     void Update()
     {
+        /* !!!toDo add Controller and Mouse Input!!!
         if (Input.anyKeyDown)
             resetTimer();
         else
             tick();
         if (timer > resetLimit)
             SceneManager.LoadScene("Day 0");
-
+        */
     }
 
     void resetTimer()
