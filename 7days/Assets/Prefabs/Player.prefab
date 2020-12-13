@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 7572250949977900882}
-  sensitivity: 1
+  sensitivity: 0.3
   smoothing: 2
 --- !u!65 &5472075503210220676
 BoxCollider:
