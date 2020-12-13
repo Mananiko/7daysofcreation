@@ -6,7 +6,7 @@ public class FirstPersonLook : MonoBehaviour
     Transform character;
     Vector2 currentMouseLook;
     Vector2 appliedMouseDelta;
-    public float sensitivity = 1;
+    public float sensitivity = 0.1f;
     public float smoothing = 2;
 
 
