@@ -6,7 +6,7 @@ public class attatchMe : MonoBehaviour
 {
    public bool attached = false;
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Interactable") && attached == false)
         {                    
