@@ -3,7 +3,52 @@ guid: baaf595eb89cb7e42803f250646c8625
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl11
+    second: {fileID: 2100000, guid: 95c572aebd7f31f41884cc9f60c5eff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl12
+    second: {fileID: 2100000, guid: 8f13a1776c806e1408b06bcba8af88d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl14
+    second: {fileID: 2100000, guid: f57f0a95426887d4e87b6e2f530ebbcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl15
+    second: {fileID: 2100000, guid: 5c12c490ce7cb3e4888a42be03f6bf2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl2
+    second: {fileID: 2100000, guid: 6e3d4a9a9bd53604695f2d1290749a5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl4
+    second: {fileID: 2100000, guid: e4dc1f92894071041835e328dfdbdf31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl5
+    second: {fileID: 2100000, guid: 22d2e17b839d3f540b7c435fab62ae62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl6
+    second: {fileID: 2100000, guid: f7f0185172c2302458cf4b00ec3538b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl9
+    second: {fileID: 2100000, guid: 495922a8880be884e88be5e32b41d21b, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -31,7 +76,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
