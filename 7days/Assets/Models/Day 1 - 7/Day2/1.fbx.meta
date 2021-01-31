@@ -3,7 +3,127 @@ guid: 28310cd8eef39f84586e27664128ef9e
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl28
+    second: {fileID: 2100000, guid: 8c239e9a5f02611408b715636fc261dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl29
+    second: {fileID: 2100000, guid: 8c30e4b69fa11c44f89f799427376a75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl30
+    second: {fileID: 2100000, guid: ef27cbb236a27ac488bfdbde4ee76aa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl31
+    second: {fileID: 2100000, guid: 47f9fc7f6b44f634b8f23f31ee5d613a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl33
+    second: {fileID: 2100000, guid: 22784076e17eebe4eb319e39c85e7bb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl34
+    second: {fileID: 2100000, guid: 6728a72a9e9032347ade35061eb2b8c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl35
+    second: {fileID: 2100000, guid: e2d99f8c55859a14eb18f6f345353fe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl36
+    second: {fileID: 2100000, guid: 82b14325a800d0e40879bc9d55aa8e27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl37
+    second: {fileID: 2100000, guid: 0c3631f35a43b234cb5997de1e09c9a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl38
+    second: {fileID: 2100000, guid: 89e93c7d02e072043abec570b9b0342a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl39
+    second: {fileID: 2100000, guid: 302a4cb53e7b6f248ab1a4b9ec645fa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl40
+    second: {fileID: 2100000, guid: 064de406bc80dc447acc8588818020b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl41
+    second: {fileID: 2100000, guid: 71e71c0c4991ec74d995dce912941de2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl42
+    second: {fileID: 2100000, guid: 1c0fe5807033f1d498ada38ffbc6ef28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl43
+    second: {fileID: 2100000, guid: 2874739c12a358b43b99197645ab5758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl44
+    second: {fileID: 2100000, guid: d63a303d9d491114daa0e3cfbd1cb182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl46
+    second: {fileID: 2100000, guid: 8fce9af18053f3c4c925ae52cf2fc84d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl47
+    second: {fileID: 2100000, guid: ddaeb401abd43254eaff321ffb1e2c44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl48
+    second: {fileID: 2100000, guid: d9e9dfff55ee5b74e88c49712180e84b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl49
+    second: {fileID: 2100000, guid: 5414a6ed3061ed64aa7eed5e35976803, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl50
+    second: {fileID: 2100000, guid: c90947e2eb05ccd4691130f14a0709bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 80fe1f987de408b4cbd3f4d4532bb023, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: b5a5fd0402f5b164bbaf588b6df5f57b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: 6586e81d48b2e79498d5cac621034032, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -31,7 +151,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
