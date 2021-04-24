@@ -102,8 +102,7 @@ public class ScreenCapture : MonoBehaviour
         fadeImage = fadeImage.GetComponent<Image>();       
     }
     void Update()
-    {
-        Debug.Log(fadeImage.color.a);
+    {       
         // check keyboard 'k' for one time screenshot capture and holding down 'v' for continious screenshots
         // captureScreenshot |= Input.GetKeyDown("k");
         if ( (Input.GetButtonDown("Fire3") || Input.GetKeyDown("space")))
