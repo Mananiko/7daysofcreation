@@ -3,12 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
 using System.IO;
+using UnityEngine.UI;
 
 public class ScreenCapture : MonoBehaviour
 {
     // 4k = 3840 x 2160   1080p = 1920 x 1080
     public int captureWidth = 1920;
     public int captureHeight = 1080;
+
+    
+    float progress = 0.0f;
+    bool fadeIn = false;
+    bool fadeOut= false;
+
+    public Image fadeImage;
+    private float targetAlpha = 1;
+    public float fadeDuration = 0.5f;
+    private float startAlpha = 0;
 
     // optional game object to hide during screenshots (usually your scene canvas hud)
     public GameObject hideGameObject;
@@ -70,21 +81,71 @@ public class ScreenCapture : MonoBehaviour
     {
         captureScreenshot = true;
     }
+    // Function to start the fade with the specific alpha with the desired duration
+    public void FadeTo(float alpha, float duration = 1)
+    {
+        startAlpha = fadeImage.color.a;
+        targetAlpha = alpha;
+        fadeDuration = duration;
+        progress = 0;  
+    }
+    // Easily change the material alpha with a specific function
+    private void SetMaterialAlpha(float alpha)
+    {
+        Color color = fadeImage.color;
+        color.a = alpha;
+        fadeImage.color = color;
+    }
 
+    private void Start()
+    {
+        fadeImage = fadeImage.GetComponent<Image>();       
+    }
     void Update()
     {
+        Debug.Log(fadeImage.color.a);
         // check keyboard 'k' for one time screenshot capture and holding down 'v' for continious screenshots
-       // captureScreenshot |= Input.GetKeyDown("k");
-        if ( (Input.GetButtonDown("Fire3") || Input.GetKeyDown("k")))
+        // captureScreenshot |= Input.GetKeyDown("k");
+        if ( (Input.GetButtonDown("Fire3") || Input.GetKeyDown("space")))
             {
             captureScreenshot = true;
         }
         captureVideo = Input.GetKey("v");
 
+        if (fadeIn)
+        {            
+            progress += Time.deltaTime;
+            targetAlpha = 1;
+            float alpha = Mathf.Lerp(startAlpha, targetAlpha, progress / fadeDuration);
+            SetMaterialAlpha(alpha);
+
+            if (fadeImage.color.a == 1)
+            {                
+                fadeIn = false;
+                fadeOut = true;
+            }
+
+        }
+        if (fadeOut)
+        {
+            progress -= Time.deltaTime;
+            targetAlpha = 0;
+            float alpha = Mathf.Lerp(startAlpha, targetAlpha, progress / fadeDuration);
+            SetMaterialAlpha(alpha);
+
+            if (fadeImage.color.a == 0)
+            {
+                progress = 0;
+                fadeOut = false;                            
+            }
+
+        }
+
         if (captureScreenshot || captureVideo)
         {
             captureScreenshot = false;
-
+            fadeIn = true;
+                        
             // hide optional game object if set
             if (hideGameObject != null) hideGameObject.SetActive(false);
 
