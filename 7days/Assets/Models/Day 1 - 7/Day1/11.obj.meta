@@ -3,7 +3,62 @@ guid: 2268e38047fdf634a8faccd2d182fdbb
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder38Mat
+    second: {fileID: 2100000, guid: 2e64b67c2ff9448489df086fea22117c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder39Mat
+    second: {fileID: 2100000, guid: ca335b54d8831c843b51a29065390b70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder40Mat
+    second: {fileID: 2100000, guid: f8bec21e26784714689382d6319be573, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder41Mat
+    second: {fileID: 2100000, guid: 1f133b1bd2338724d910c72a5e23480e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder42Mat
+    second: {fileID: 2100000, guid: a4d1e5f434409454085f1b71d5426afa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder43Mat
+    second: {fileID: 2100000, guid: e9a90e8d70263cb459aba3ea2fa73a49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder44Mat
+    second: {fileID: 2100000, guid: f6fdc473dfe8f5c469ef2ba1796983f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder45Mat
+    second: {fileID: 2100000, guid: 7e3d13a3a0bb53447b6541ad1e1361a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder46Mat
+    second: {fileID: 2100000, guid: 280174d09f5476d47a704e54cbd31561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder47Mat
+    second: {fileID: 2100000, guid: afe35245abd1a3040a4571689cbee809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder48Mat
+    second: {fileID: 2100000, guid: 8d888b9ac47f4be488e9a02c56496086, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -31,7 +86,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
