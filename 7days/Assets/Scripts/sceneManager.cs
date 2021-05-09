@@ -35,13 +35,17 @@ public class sceneManager : MonoBehaviour
     // load next level when player enters portal
     private void OnTriggerEnter(Collider other)
     {
-        if (SceneManager.GetActiveScene().buildIndex == 7)
+        if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
+            if (SceneManager.GetActiveScene().buildIndex == 7)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
-        else
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
+          
     }
 }
